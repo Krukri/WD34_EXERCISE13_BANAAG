@@ -1,0 +1,21 @@
+- crreate background img using canva
+- responsive websites for the large and smaller screen 
+- create keyboard website like kbdfans 
+
+
+Presentation parts:
+
+1. Introduction of yourself
+2. Relation of color scheme to your work
+3. Tech Stacks
+4. Tour of your website
+5. Responsiveness
+
+colors:
+light - #F3EFE0
+dark - #434242
+darker - #222222
+nice - #22A39F
+
+logo shadow color #A09595
+

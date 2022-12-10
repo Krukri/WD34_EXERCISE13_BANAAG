@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KeyBored Ⓡ The Mechanical Keyboard</title>
+
+    <!-- title logo -->
+    <link rel="icon" href="img/titlog.png" type="image/icon type" />
+    <!-- title logo -->
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!--  FOR BOTTOM BANNER -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+  "
+    />
+    <!-- this is the link for the Bootstrap CDN for font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+
+    <style>
+      html,
+      body {
+        background: url("img/background1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        box-sizing: border-box;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        scroll-behavior: smooth;
+      }
+      .blurbg {
+        border: solid px white;
+        padding-block: 10px;
+        padding-inline: 15px;
+        width: 100%;
+        max-width: 2000px;
+        margin: auto;
+        backdrop-filter: blur(180px);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- START OF THE NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-dark sticky-top m-0 p-3"
+      style="opacity: 0.95; width: 100%"
+    >
+      <div class="container align-items-center justify-content-center>
+      <a class="navbar-brand" href="#">
+        <img src="img/brandname.png" alt="logo" height="100" loading="lazy" />
+      </a>
+      <button
+        class="navbar-toggler text-light"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarMenu"
+      >
+        <span class="navbar-toggler-icon text-light"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end text-light"
+        id="navbarMenu"
+      >
+        <ul class="navbar-nav ms-3 p-0">
+          <li class="nav-item justify-content-end">
+            <a
+              href="#"
+              class="nav-link"
+              style="font-size: 40px; color: #a09595; position: relative"
+              ><i class="fas fa-shopping-cart">
+                <span
+                  class="badge rounded-pill badge-notification bg-danger"
+                  style="font-size: 15px; position: absolute; top: 0"
+                  >0
+                </span>
+              </i>
+            </a>
+          </li>
+
+          <li class="nav-item ms-2 p-0">
+            <a
+              href="#"
+              class="nav-link"
+              style="font-size: 40px; color: #a09595; position: relative"
+              ><i class="fas fa-bell">
+                <span
+                  class="badge rounded-pill badge-notification bg-danger"
+                  style="font-size: 15px; position: absolute; top: 0"
+                  >0</span
+                >
+              </i>
+            </a>
+          </li>
+
+          <!-- 3RD ITEM WITH DP -->
+
+          <div class="dropdown ms-3 p-0">
+            <a
+              class="dropdown-toggle d-flex align-items-center hidden-arrow"
+              href="#"
+              id="pangatlongoption"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="img/meow.png"
+                alt="bootstrap"
+                class="mt-3 p-0 img-thumbnail"
+                width="40"
+                height="40"
+                loading="lazy"
+                style="border: solid 4px #a09595; border-radius: 50%"
+              />
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end p-1"
+              aria-labelledby="pangatlongoption"
+              style="background: none; border: none"
+            >
+              <li>
+                <div
+                  class="btn btn-outline-light rounded-pill"
+                  style="width: 100%; border: solid #a09595 0px"
+                >
+                  <a
+                    href="#"
+                    class="dropdown-item text-light bg-dark rounded-pill"
+                    style="border: solid 1px white"
+                    >My Account</a
+                  >
+                </div>
+              </li>
+              <li>
+                <div
+                  class="btn btn-outline-light rounded-pill"
+                  style="width: 100%; border: solid #a09595 0px"
+                >
+                  <a
+                    href="#"
+                    class="dropdown-item text-light bg-dark rounded-pill"
+                    style="border: solid 1px white"
+                    >Settings</a
+                  >
+                </div>
+              </li>
+              <li>
+                <div
+                  class="btn btn-outline-light rounded-pill"
+                  style="width: 100%; border: solid #a09595 0px"
+                >
+                  <a
+                    href="#"
+                    class="dropdown-item text-light bg-dark rounded-pill"
+                    style="border: solid 1px white"
+                    >Logout</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+    </nav>
+    <!-- END OF THE NAVBAR -->
+
+    <!-- START OF THE CAROUSEL -->
+    <div class="blurbg">
+      <div class="container">
+        <div
+          class="carousel slide carousel-fade carousel-dark p-0 mt-1 mb-3 ms-3 me-3"
+          data-bs-ride="carousel"
+          id="CarouselControl"
+        >
+          <div class="carousel-indicators">
+            <button
+              data-bs-target="#CarouselControl"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              data-bs-target="#CarouselControl"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              data-bs-target="#CarouselControl"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              data-bs-target="#CarouselControl"
+              data-bs-slide-to="3"
+            ></button>
+            <button
+              data-bs-target="#CarouselControl"
+              data-bs-slide-to="4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/Products/tofu65.png"
+                alt=""
+                class="d-block w-100 h-100"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Tofu65 Brass Plate</h3>
+                <p>
+                  There are mulitple variaty of plates for this keyboard. Brass
+                  is one of the most sophisticated and good sounding plate for
+                  the unit. Some plates are FR4, Polycarbanate, and Aluminuim.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/Products/tofu65a.png"
+                alt=""
+                class="d-block w-100 h-100"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>68 Total Keys</h3>
+                <p>
+                  Tofu65 is a 65% mechanical keyboard that has 68 keys with a
+                  dedicated arrow buttons and keys for PageUp, PageDn, Home, and
+                  Del.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/Products/tofu6b.png"
+                alt=""
+                class="d-block w-100 h-100"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Type C connection</h3>
+                <p>
+                  The specifi connection for Tofu65 is via USB Type-C only. Some
+                  other mechanical keyboards has 2.4 USB dongle, and Bluetooth
+                  connection. They also have batteries inside unlike Tofu65,
+                  there is none.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/Products/tofu65c.png"
+                alt=""
+                class="d-block w-100 h-100"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Cherry Screw-in Stabs</h3>
+                <p>
+                  The included Stabilizer for Tofu65 is made by Cherry and their
+                  very own Cherry Screw-in stabilizer. This components can be
+                  very anoying if not tuned properly.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/Products/tofu65d.png"
+                alt=""
+                class="d-block w-100 h-100"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Acrylic Case</h3>
+                <p>
+                  Originally, Tofu65 can only be both out of Aluminuim material.
+                  Now, you can also get it with the Acrylic version which will
+                  sound deeper than the Aluminuim. It also has RGB underglow
+                  that illuminated underneat the keyboard itself.
+                  <a href="https://www.youtube.com/watch?v=8BfR9Q4SiG8&t=107s"
+                    >click here to learn more.</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            data-bs-target="#CarouselControl"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            data-bs-target="#CarouselControl"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <!-- END OF THE CAROUSEL -->
+      </div>
+    </div>
+
+    <div
+      class="container-fluid bg-dark w-100 h-100 text-light text-center text-capitalize mt-1 pt-3"
+    >
+      <div class="col-12">
+        <h1>Types of Mechanical Switch</h1>
+      </div>
+      <div class="col-12 text-dark">
+        <h1>content</h1>
+      </div>
+    </div>
+    <!-- START OF CARD ELEMENTS -->
+    <!-- this line below will blur the background of the types of switches -->
+    <div class="blurbg">
+      <div class="rowCardCarousel">
+        <div class="container-fluid">
+          <div class="row gx-3 pt-5 pb-5 ps-5 pe-5">
+            <!-- start of the carousel inside the card1 -->
+
+            <div class="col-md-3 gy-3">
+              <div class="card">
+                <div class="container">
+                  <div
+                    class="carousel slide carousel-fade carousel-dark p-5"
+                    data-bs-ride="carousel"
+                    id="CarouselControl1"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        data-bs-target="#CarouselControl1"
+                        data-bs-slide-to="0"
+                        class="active"
+                      ></button>
+                      <button
+                        data-bs-target="#CarouselControl1"
+                        data-bs-slide-to="1"
+                      ></button>
+                      <button
+                        data-bs-target="#CarouselControl1"
+                        data-bs-slide-to="2"
+                      ></button>
+                      <button
+                        data-bs-target="#CarouselControl1"
+                        data-bs-slide-to="3"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                        <img
+                          src="img/Products/blackswitch/1.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/Products/blackswitch/2.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/Products/blackswitch/3.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/Products/blackswitch/4.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      data-bs-target="#CarouselControl1"
+                      data-bs-slide="prev"
+                    >
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      data-bs-target="#CarouselControl1"
+                      data-bs-slide="next"
+                    >
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body text-end">
+                  <h3 class="card-title text-start mb-4">Cherry MX Black</h3>
+                  <h4 class="card-subtitle text-start" style="color: #22a39f">
+                    Powerful and Direct
+                  </h4>
+                  <span class="card-text">
+                    <ul style="list-style-type: circle; text-align: start">
+                      <li>Linear switching characteristic</li>
+                      <li>60 cN Operating Force</li>
+                      <li>2.0 mm Pre-Travel</li>
+                      <li>4.0 mm Total Travel</li>
+                    </ul>
+                  </span>
+                  <a
+                    href="https://www.cherrymx.de/en/cherry-mx/mx-original/mx-black.html"
+                    class="btn btn-outline-dark text-secondary text-capitalize"
+                    >click me!</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- end of the carousel inside the card1 -->
+
+            <!-- start of the corousel inside the card 2 -->
+
+            <div class="col-md-3 gy-3">
+              <div class="card">
+                <div class="container">
+                  <div
+                    class="carousel slide carousel-fade carousel-dark p-5"
+                    data-bs-ride="carousel"
+                    id="CarouselControl2"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        data-bs-target="#CarouselControl2"
+                        data-bs-slide-to="0"
+                        class="active"
+                      ></button>
+                      <button
+                        data-bs-target="#CarouselControl2"
+                        data-bs-slide-to="1"
+                      ></button>
+                      <button
+                        data-bs-target="#CarouselControl2"
+                        data-bs-slide-to="2"
+                      ></button>
+                      <button
+                        data-bs-target="#CarouselControl2"
+                        data-bs-slide-to="3"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="img/Products/blueswitch/1.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/Products/blueswitch/2.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/Products/blueswitch/3.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/Products/blueswitch/4.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      data-bs-target="#CarouselControl2"
+                      data-bs-slide="prev"
+                    >
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      data-bs-target="#CarouselControl2"
+                      data-bs-slide="next"
+                    >
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body text-end">
+                  <h3 class="card-title text-start mb-4">Cherry MX Blue</h3>
+                  <h4 class="card-subtitle text-start" style="color: #22a39f">
+                    Clicky and Noticeable
+                  </h4>
+                  <span class="card-text">
+                    <ul style="list-style-type: circle; text-align: start">
+                      <li>Tactile and audible switching</li>
+                      <li>60 cN Operating Force</li>
+                      <li>2.2 mm Pre-Travel</li>
+                      <li>4.0 mm Total Travel</li>
+                    </ul>
+                  </span>
+                  <a
+                    href="https://www.cherrymx.de/en/cherry-mx/mx-original/mx-blue.html"
+                    class="btn btn-outline-dark text-secondary text-capitalize"
+                    >click me!</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- end of the carousel inside the card 2 -->
+
+            <!-- start of the carousel inside the card 3 -->
+
+            <div class="col-md-3 gy-3">
+              <div class="card">
+                <div class="container">
+                  <div
+                    class="carousel slide carousel-fade carousel-dark p-5"
+                    data-bs-ride="carousel"
+                    id="CarouselControl3"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        data-bs-target="#CarouselControl3"
+                        data-bs-slide-to="0"
+                        class="active"
+                      ></button>
+                      <button
+                        data-bs-target="#CarouselControl3"
+                        data-bs-slide-to="1"
+                      ></button>
+                      <button
+                        data-bs-target="#CarouselControl3"
+                        data-bs-slide-to="2"
+                      ></button>
+                      <button
+                        data-bs-target="#CarouselControl3"
+                        data-bs-slide-to="3"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="img/Products/redswitch/1.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/Products/redswitch/2.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/Products/redswitch/3.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/Products/redswitch/4.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      data-bs-target="#CarouselControl3"
+                      data-bs-slide="prev"
+                    >
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      data-bs-target="#CarouselControl3"
+                      data-bs-slide="next"
+                    >
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body text-end">
+                  <h3 class="card-title text-start mb-4">Cherry MX Red</h3>
+                  <h4 class="card-subtitle text-start" style="color: #22a39f">
+                    Smooth and Direct
+                  </h4>
+                  <span class="card-text">
+                    <ul style="list-style-type: circle; text-align: start">
+                      <li>Linear switching characteristic</li>
+                      <li>45 cN Operating Force</li>
+                      <li>2.0 mm Pre-Travel</li>
+                      <li>4.0 mm Total Travel</li>
+                    </ul>
+                  </span>
+                  <a
+                    href="https://www.cherrymx.de/en/cherry-mx/mx-original/mx-red.html"
+                    class="btn btn-outline-dark text-secondary text-capitalize"
+                    >click me!</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- end of the carousel inside the card 3 -->
+
+            <!-- start of the carousel inside the card 4 -->
+            <div class="col-md-3 gy-3">
+              <div class="card">
+                <div class="container">
+                  <div
+                    class="carousel slide carousel-fade carousel-dark p-5"
+                    data-bs-ride="carousel"
+                    id="CarouselControl4"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        data-bs-target="#CarouselControl4"
+                        data-bs-slide-to="0"
+                        class="active"
+                      ></button>
+                      <button
+                        data-bs-target="#CarouselControl4"
+                        data-bs-slide-to="1"
+                      ></button>
+                      <button
+                        data-bs-target="#CarouselControl4"
+                        data-bs-slide-to="2"
+                      ></button>
+                      <button
+                        data-bs-target="#CarouselControl4"
+                        data-bs-slide-to="3"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="img/Products/brownswitch/1.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/Products/brownswitch/2.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/Products/brownswitch/3.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/Products/brownswitch/4.png"
+                          alt=""
+                          class="d-block w-100 h-100"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      data-bs-target="#CarouselControl4"
+                      data-bs-slide="prev"
+                    >
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      data-bs-target="#CarouselControl4"
+                      data-bs-slide="next"
+                    >
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body text-end">
+                  <h3 class="card-title text-start mb-4">Cherry MX Brown</h3>
+                  <h4 class="card-subtitle text-start" style="color: #22a39f">
+                    Focus and Noticeable
+                  </h4>
+                  <span class="card-text">
+                    <ul style="list-style-type: circle; text-align: start">
+                      <li>Tactile switching characteristics</li>
+                      <li>55 cN Operating Force</li>
+                      <li>2.0 mm Pre-Travel</li>
+                      <li>4.0 mm Total Travel</li>
+                    </ul>
+                  </span>
+                  <a
+                    href="https://www.cherrymx.de/en/cherry-mx/mx-original/mx-brown.html"
+                    class="btn btn-outline-dark text-secondary text-capitalize"
+                    >click me!</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- end of the carousel inside the card 4 -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END OF CARD ELEMENTS -->
+    <!-- NEW CONTENT DESIGN-->
+    <div class="container-fluid">
+      <div
+        class="row mt-3"
+        style="
+          border: solid 0px white;
+          background-image: url(./img/Products/design/1.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        "
+      >
+        <div
+          class="container d-flex m-0 p-0 flex-row align-items-stretch"
+          style="height: 300px"
+        >
+          <div class="bg-primary p-2 text-primary">Sample Flex 1</div>
+          <div class="bg-danger p-2 text-danger">Sample Flex 2</div>
+          <div class="bg-warning p-2 text-warning">Sample Flex 3</div>
+        </div>
+      </div>
+    </div>
+    <!-- ************************************************************************ -->
+
+    <div
+      class="container-fluid bg-dark w-100 h-100 text-light text-center text-capitalize mt-1 pt-3"
+    >
+      <div class="col-12 text-light">
+        <h1>Elegance and Premium quality</h1>
+      </div>
+      <div class="col-12 text-dark">
+        <h1>content</h1>
+      </div>
+    </div>
+
+    <!-- ************************************************************************ -->
+    <div class="container-fluid m-0 p-0">
+      <div
+        class="youtubevidz d-flex flex-row"
+        style="
+          border: solid 0px red;
+          width: 100%;
+          height: 500px;
+          background: none;
+          position: relative;
+          justify-content: center;
+          margin: auto;
+        "
+      >
+        <div class="col-6">
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe
+              width="100%"
+              height="500"
+              src="https://www.youtube.com/embed/FuSDQ_J1upw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe
+              width="100%"
+              height="500"
+              src="https://www.youtube.com/embed/HLxk3C5bwAk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ************************************************************************ -->
+    <div
+      class="container-fluid bg-dark w-100 h-100 text-light text-center text-capitalize mt-3 pt-3"
+    >
+      <div class="col-12 text-light">
+        <h1>Find us on social media platforms below:</h1>
+      </div>
+      <div class="col-12 text-dark">
+        <h1>content</h1>
+      </div>
+    </div>
+    <!-- ************************************************************************ -->
+
+    <div class="container-fluid">
+      <div
+        class="row mt-0"
+        style="
+          border: solid 0px white;
+          background-image: url(./img/Products/design/4.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+        "
+      >
+        <div
+          class="container d-flex m-0 p-0 flex-row-reverse align-items-stretch"
+          style="height: 300px"
+        >
+          <div class="bg-primary p-2 text-primary">Sample Flex 1</div>
+          <div class="bg-danger p-2 text-danger">Sample Flex 2</div>
+          <div class="bg-warning p-2 text-warning">Sample Flex 3</div>
+        </div>
+      </div>
+    </div>
+    <!-- NEW CONTENT DESIGN -->
+
+    <div
+      class="container-fluid bg-dark w-100 h-100 text-light text-center text-capitalize mt-3"
+    >
+      <div class="col-12 text-dark">
+        <h1>sample content</h1>
+      </div>
+      <div class="col-12 text-dark">
+        <h1>sample content</h1>
+      </div>
+    </div>
+
+    <!-- FLEX EXAMPLES -->
+    <div class="container-fluid d-flex m-0 p-0 flex-row">
+      <div class="bg-primary p-2 text-primary">Sample Flex 1</div>
+      <div class="bg-secondary p-2 text-secondary">Sample Flex 2</div>
+      <div class="bg-warning p-2 text-warning">Sample Flex 3</div>
+    </div>
+
+    <div class="container-fluid d-flex m-0 p-0 flex-row">
+      <div class="bg-primary p-2 text-primary">Sample Flex 1</div>
+      <div class="bg-secondary p-2 text-secondary">Sample Flex 2</div>
+      <div class="bg-warning p-2 text-warning">Sample Flex 3</div>
+    </div>
+
+    <div class="container-fluid d-flex m-0 p-0 flex-row-reverse">
+      <div class="bg-primary p-2 text-primary">Sample Flex 1</div>
+      <div class="bg-secondary p-2 text-secondary">Sample Flex 2</div>
+      <div class="bg-warning p-2 text-warning">Sample Flex 3</div>
+    </div>
+
+    <div class="container-fluid d-flex mb-2 p-0 flex-row-reverse">
+      <div class="bg-primary p-2 text-primary">Sample Flex 1</div>
+      <div class="bg-secondary p-2 text-secondary">Sample Flex 2</div>
+      <div class="bg-warning p-2 text-warning">Sample Flex 3</div>
+    </div>
+    <!-- FLEX EXAMPLES -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.facebook.com/KBDfanskeyboard"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://twitter.com/KBDfans?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.instagram.com/kbdfans/?hl=en"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+
+          <!-- Github -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input
+                    type="email"
+                    id="form5Example21"
+                    class="form-control"
+                  />
+                  <label class="form-label" for="form5Example21"
+                    >Email address</label
+                  >
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Subscribe
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p>
+            KeyBored Ⓡ The Mechanical Keyboard. Is a site of pure mechanical
+            keyboard content for high-end customer mechanical keyboard, keycaps,
+            and switches. This website is souly intended to showcase high-end
+            and top of the line Mechanical Keyboards.
+          </p>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">KeyBored.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- Bottom banner -->
+    <div class="bottombar">
+      <div class="bottombar__content">
+        <div class="bottombar__text">
+          <h5>Subscribe now to be updated on our discount!</h5>
+          <button
+            class="btn btn-outline-dark text-light d-flex justify-content-center"
+            style="border: 1px white solid; margin: auto"
+          >
+            Subscribe
+          </button>
+        </div>
+        <button class="bottombar__close" type="button">&times;</button>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("click", function (e) {
+        if (e.target.className.indexOf("bottombar__close") !== -1) {
+          document.body.removeChild(e.target.parentElement.parentElement);
+        }
+      });
+    </script>
+    <!-- Bottom banner -->
+
+    <!-- bottom banner source: https://www.youtube.com/watch?v=MZ_dze0hWl4 -->
+
+    <!--  START OF THE NEW CAROUSEL FULL WIDTH -->
+    <!-- Source for the carousel https://www.youtube.com/watch?v=ku_97a6Bgkg -->
+
+    <!--  END OF THE NEW CAROUSEL FULL WIDTH -->
+
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

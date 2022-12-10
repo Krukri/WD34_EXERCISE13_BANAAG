@@ -1,0 +1,30 @@
+.bottombar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #6e1020;
+  color: #f3efe0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.bottombar__content {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.bottombar__close {
+  background: none;
+  border: none;
+  color: #f3efe0;
+  cursor: pointer;
+  font-size: 2em;
+}
+/* .bottombar__content > * {
+  display: flex;
+  align-items: center;
+} */
+/* This will target the parent and the child element under the said class */
